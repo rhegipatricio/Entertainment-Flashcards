@@ -11,7 +11,7 @@ var BasicCard = function(front, back) {
 	this.back = back;
 };
 
-//questions
+//questions that take from runnapp.js
 var questionOne = new runapp.basiccard(
 	"Who is the Logo of the NBA?", "Jerry West");
 
