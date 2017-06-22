@@ -20,12 +20,18 @@ inquirer.prompt([{
 	message: 'questionTwo.missingText'
 }
 
+]).then(function (inquirer) {
+
+	if (inquirer.answerOne === questionOne.clozeGone) {
+		console.log("Correct! The complete sentence was " + "'" + questionOne.completeStatement + "'")
+	} else {
+		console.log("Wrong. The correct statement is " + questionOne.clozeGone)
+	}
+	if (inquirer.answerTwo === questionTwo.clozeGone) {
+		console.log("Correct! The complete sentence was " + "'" + questionTwo.completeStatement + "'")
+	} else {
+		console.log("Wrong. The correct statement is " + questionTwo.clozeGone)
+	}
 
 
-
-
-
-
-
-
-}])
+});
