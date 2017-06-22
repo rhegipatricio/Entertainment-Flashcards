@@ -25,22 +25,22 @@ var questionFour = new runapp.basiccard(
 	"Although he was supremely successful in his career, Kobe Bryant did not get drafted first in his draft. What was the nickname of the player that DID get drafted first?", "The Answer");
 
 var questionFive = new runapp.basiccard(
-	);
+	"Who's nickname is The Truth?", "Paul Pierce");
 
 var questionSix = new runapp.basiccard(
-	);
+	"Dwight Howard was the second man to use this monkier, originally used by Shaquille O'Neal", "Superman");
 
 var questionSeven = new runapp.basiccard(
-	);
+	"What type of 'brothers' are Steph Curry and Klay Thompson?", "splash");
 
 var questionEight = new runapp.basiccard(
-	);
+	"What team won the very first NBA Lottery?", "Knicks");
 
 var questionNine = new runapp.basiccard(
-	);
+	"How many titles does Michael Jordan have?", "Six");
 
 var questionTen = new runapp.basiccard(
-	);
+	"What did Lebron James take to South Beach when he decided to sign with the Miami Heat", "his talents");
 
 //pulls from inquirer to show questions to user
 inquirer.prompt([{
