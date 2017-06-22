@@ -13,10 +13,23 @@ var questionTwo = new BasicCard(
 
 inquirer.prompt([{
 	type: 'input',
-	message: questionOne.front,
-	name: 'answerOne'
+	name: 'answerOne',
+	message: questionOne.front
 }, {
 	type: 'input',
-	message: questionTwo.front,
-	name: 'answerTwo'
-}])
+	name: 'answerTwo',
+	message: questionTwo.front
+}
+
+]).then(function(inquirer) {
+	if (inquirer.answerOne === questionOne.back) {
+		console.log('Right!')
+	} else {
+		console.log('Nope!')
+	}
+	if (inquirer.answerTwo === questionTwo.back) {
+		console.log('Right!')
+	} else {
+		console.log('Nope!')
+	}
+});
