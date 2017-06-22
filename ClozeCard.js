@@ -47,6 +47,19 @@ inquirer.prompt([{
 	} else {
 		console.log("Wrong. The correct statement is " + questionTwo.clozeGone)
 	}
-
-
+	if (inquirer.answerThree === questionThree.clozeGone) {
+		console.log("Correct! The complete sentence was " + "'" + questionThree.fullStatement + "'")
+	} else {
+		console.log("Wrong. The correct statement is " + questionThree.clozeGone)
+	}
+	if (inquirer.answerFour === questionFour.clozeGone) {
+		console.log("Correct! The complete sentence was " + "'" + questionFour.fullStatement + "'")
+	} else {
+		console.log("Wrong. The correct statement is " + questionFour.clozeGone)
+	}
+	if (inquirer.answerFive === questionFive.clozeGone) {
+		console.log("Correct! The complete sentence was " + "'" + questionFive.fullStatement + "'")
+	} else {
+		console.log("Wrong. The correct statement is " + questionFive.clozeGone)
+	}
 });
