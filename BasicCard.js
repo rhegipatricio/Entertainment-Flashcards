@@ -5,6 +5,7 @@ var BasicCard = function(front, back) {
 	this.back = back;
 };
 
+//questions
 var questionOne = new BasicCard(
 		"Who is the Logo of the NBA?", "Jerry West");
 
