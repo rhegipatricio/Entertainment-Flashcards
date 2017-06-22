@@ -48,22 +48,22 @@ inquirer.prompt([{
 	if (inquirer.answerOne === questionOne.back) {
 		console.log("It's Good!")
 	} else {
-		console.log('The iron is unkind. No good!')
+		console.log("The iron is unkind. No good! You'd get the And-1 if you typed JERRY WEST")
 	}
 	if (inquirer.answerTwo === questionTwo.back) {
 		console.log('The Bulls have won!')
 	} else {
-		console.log('Airball!')
+		console.log("Airball! You'd get the swish if you picked the UTAH JAZZ")
 	}
 	if (inquirer.answerThree === questionThree.back) {
 		console.log('Kobe with the win!')
 	} else {
-		console.log('Kobe has shot an airball!')
+		console.log("Kobe has shot an airball! You let him down. Kobe would have made it if you picked 1996")
 	}
 	if (inquirer.answerFour === questionFour.back) {
 		console.log('Iverson for the win!')
 	} else {
-		console.log('A.I. with the turnover. The Sixers lose!')
+		console.log("A.I. with the turnover. The Sixers lose! Philly would have won if you typed in THE ANSWER")
 	}
 
 });
