@@ -7,10 +7,10 @@ exports.basiccard = function basiccard (front, back) {
 
 };
 
-exports.clozecard = function clozecard (clozeGone, missingText, fullStatement) {
+exports.clozecard = function clozecard (clozeGone, partialText, fullText) {
 
 	this.clozeGone = clozeGone;
-	this.missingText = missingText;
-	this.fullStatement = fullStatement;
+	this.partialText = partialText;
+	this.fullText = fullText;
 
 };

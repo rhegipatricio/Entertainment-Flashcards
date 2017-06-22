@@ -87,8 +87,10 @@ inquirer.prompt([{
 
 //function that tells the user if they're right or wrong
 ]).then(function(inquirer) {
+	//if is correct
 	if (inquirer.answerOne === questionOne.back) {
 		console.log("It's Good!")
+	//else is if it is not correct 
 	} else {
 		console.log("The iron is unkind. No good! You'd get the And-1 if you typed JERRY WEST")
 	}

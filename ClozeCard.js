@@ -15,50 +15,50 @@ var questionFive = new runapp.clozecard("feelings", "'No. I am your father' 'No!
 inquirer.prompt([{
 	type: 'input',
 	name: 'answerOne',
-	message: questionOne.missingText
+	message: questionOne.partialText
 }, {
 	type: 'input',
 	name: 'answerTwo',
-	message: questionTwo.missingText
+	message: questionTwo.partialText
 }, {
 	type: 'input',
 	name: 'answerThree',
-	message: questionThree.missingText
+	message: questionThree.partialText
 }, {
 	type: 'input',
 	name: 'answerFour',
-	message: questionFour.missingText
+	message: questionFour.partialText
 }, {
 	type: 'input',
 	name: 'answerFive',
-	message: questionFive.missingText
+	message: questionFive.partialText
 }
 
 //function that tells the user if they're right or wrong
 ]).then(function (inquirer) {
 
 	if (inquirer.answerOne === questionOne.clozeGone) {
-		console.log("Correct! The complete sentence was " + "'" + questionOne.fullStatement + "'")
+		console.log("Correct! The complete sentence was " + "'" + questionOne.fullText + "'")
 	} else {
 		console.log("Wrong. The correct statement is " + questionOne.clozeGone)
 	}
 	if (inquirer.answerTwo === questionTwo.clozeGone) {
-		console.log("Correct! The complete sentence was " + "'" + questionTwo.fullStatement + "'")
+		console.log("Correct! The complete sentence was " + "'" + questionTwo.fullText + "'")
 	} else {
 		console.log("Wrong. The correct statement is " + questionTwo.clozeGone)
 	}
 	if (inquirer.answerThree === questionThree.clozeGone) {
-		console.log("Correct! The complete sentence was " + "'" + questionThree.fullStatement + "'")
+		console.log("Correct! The complete sentence was " + "'" + questionThree.fullText + "'")
 	} else {
 		console.log("Wrong. The correct statement is " + questionThree.clozeGone)
 	}
 	if (inquirer.answerFour === questionFour.clozeGone) {
-		console.log("Correct! The complete sentence was " + "'" + questionFour.fullStatement + "'")
+		console.log("Correct! The complete sentence was " + "'" + questionFour.fullText + "'")
 	} else {
 		console.log("Wrong. The correct statement is " + questionFour.clozeGone)
 	}
 	if (inquirer.answerFive === questionFive.clozeGone) {
-		console.log("Correct! The complete sentence was " + "'" + questionFive.fullStatement + "'")
+		console.log("Correct! The complete sentence was " + "'" + questionFive.fullText + "'")
 	} else {
 		console.log("Wrong. The correct statement is " + questionFive.clozeGone)
 	}
