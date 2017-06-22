@@ -1,3 +1,8 @@
+// links runapp to basiccard.js
+var app = require('./runapp.js');
+
+
+//npm inquirer
 var inquirer = require("inquirer");
 
 //shows the front and the back of the card
