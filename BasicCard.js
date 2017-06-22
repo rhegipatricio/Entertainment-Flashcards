@@ -59,6 +59,30 @@ inquirer.prompt([{
 	type: 'input',
 	name: 'answerFour',
 	message: questionFour.front
+}, {
+	type: 'input',
+	name: 'answerFive',
+	message: questionFive.front
+}, {
+	type: 'input',
+	name: 'answerSix',
+	message: questionSix.front
+}, {
+	type: 'input',
+	name: 'answerSeven',
+	message: questionSeven.front
+}, {
+	type: 'input',
+	name: 'answerEight',
+	message: questionEight.front
+}, {
+	type: 'input',
+	name: 'answerNine',
+	message: questionNine.front
+}, {
+	type: 'input',
+	name: 'answerTen',
+	message: questionTen.front
 }
 
 //function that tells the user if they're right or wrong
