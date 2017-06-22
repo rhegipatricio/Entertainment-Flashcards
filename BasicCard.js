@@ -107,5 +107,34 @@ inquirer.prompt([{
 	} else {
 		console.log("A.I. with the turnover. The Sixers lose! Philly would have won if you typed in THE ANSWER")
 	}
-
+	if (inquirer.answerFive === questionFive.back) {
+		console.log('')
+	} else {
+		console.log(" if you typed in ")
+	}
+	if (inquirer.answerSix === questionSix.back) {
+		console.log('')
+	} else {
+		console.log(" if you typed in ")
+	}
+	if (inquirer.answerSeven === questionSeven.back) {
+		console.log('')
+	} else {
+		console.log(" if you typed in ")
+	}
+	if (inquirer.answerEight === questionEight.back) {
+		console.log('')
+	} else {
+		console.log(" if you typed in ")
+	}
+	if (inquirer.answerNine === questionNine.back) {
+		console.log('')
+	} else {
+		console.log(" if you typed in ")
+	}
+	if (inquirer.answerTen === questionTen.back) {
+		console.log('')
+	} else {
+		console.log(" if you typed in ")
+	}
 });
