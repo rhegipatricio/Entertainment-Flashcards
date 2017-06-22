@@ -24,6 +24,24 @@ var questionThree = new runapp.basiccard(
 var questionFour = new runapp.basiccard(
 	"Although he was supremely successful in his career, Kobe Bryant did not get drafted first in his draft. What was the nickname of the player that DID get drafted first?", "The Answer");
 
+var questionFive = new runapp.basiccard(
+	);
+
+var questionSix = new runapp.basiccard(
+	);
+
+var questionSeven = new runapp.basiccard(
+	);
+
+var questionEight = new runapp.basiccard(
+	);
+
+var questionNine = new runapp.basiccard(
+	);
+
+var questionTen = new runapp.basiccard(
+	);
+
 //pulls from inquirer to show questions to user
 inquirer.prompt([{
 	type: 'input',
