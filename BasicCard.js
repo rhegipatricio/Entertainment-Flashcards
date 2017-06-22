@@ -1,5 +1,5 @@
 // links runapp to basiccard.js
-var app = require('./runapp.js');
+var runapp = require('./runapp.js');
 
 
 //npm inquirer
@@ -12,16 +12,16 @@ var BasicCard = function(front, back) {
 };
 
 //questions
-var questionOne = new BasicCard(
+var questionOne = new runapp.BasicCard(
 	"Who is the Logo of the NBA?", "Jerry West");
 
-var questionTwo = new BasicCard(
+var questionTwo = new runapp.BasicCard(
 	"What team did Michael Jordan and the Chicago Bulls beat in Jordan's last ever NBA Finals?", "Utah Jazz");
 
-var questionThree = new BasicCard(
+var questionThree = new runapp.BasicCard(
 	"What year did Kobe Bryant get drafted?", "1996");
 
-var questionFour = new BasicCard(
+var questionFour = new runapp.BasicCard(
 	"Although he was supremely successful in his career, Kobe Bryant did not get drafted first in his draft. What was the nickname of the player that DID get drafted first?", "The Answer");
 
 //pulls from inquirer to show questions to user
