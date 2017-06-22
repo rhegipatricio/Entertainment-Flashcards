@@ -31,14 +31,14 @@ inquirer.prompt([{
 
 ]).then(function(inquirer) {
 	if (inquirer.answerOne === questionOne.back) {
-		console.log('Right!')
+		console.log("It's Good!")
 	} else {
-		console.log('Nope!')
+		console.log('Oh he draws iron. No good!')
 	}
 	if (inquirer.answerTwo === questionTwo.back) {
-		console.log('Right!')
+		console.log('The Bulls have won!')
 	} else {
-		console.log('Nope!')
+		console.log('Airball!')
 	}
 	if (inquirer.answerThree === questionThree.back) {
 		console.log('Right!')
