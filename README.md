@@ -53,7 +53,7 @@ The app will reveal the first statement that is missing something that the user 
 
 The user must fill in what is supposed to be in the 3 periods.
 
-![](/images_for_readme/07_Screen Shot 2017-06-22 at 2.17.10 AM.png)
+...
 
 After the user has input all their answers, the app will tell them if they were able to successfully complete the statement correctly.
 
