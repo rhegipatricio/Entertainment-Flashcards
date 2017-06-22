@@ -108,33 +108,33 @@ inquirer.prompt([{
 		console.log("A.I. with the turnover. The Sixers lose! Philly would have won if you typed in THE ANSWER")
 	}
 	if (inquirer.answerFive === questionFive.back) {
-		console.log('')
+		console.log('Yes! Pierce with the dagger!')
 	} else {
-		console.log(" if you typed in ")
+		console.log("Wrong! The Celtics would have won another championship if you typed in Paul Pierce")
 	}
 	if (inquirer.answerSix === questionSix.back) {
-		console.log('')
+		console.log('Yes! Superman is in the building!')
 	} else {
-		console.log(" if you typed in ")
+		console.log("Nope! Dwight Howard would shoot better free throws if you typed in SUPERMAN")
 	}
 	if (inquirer.answerSeven === questionSeven.back) {
-		console.log('')
+		console.log('Splash! Klay and Curry have been incredible. Dubs win again!')
 	} else {
-		console.log(" if you typed in ")
+		console.log("Oh No! The Warriors would have beaten the Cavaliers in 2016 if you typed in SPLASH")
 	}
 	if (inquirer.answerEight === questionEight.back) {
-		console.log('')
+		console.log('Yes! Patrick Ewing is coming to town!')
 	} else {
-		console.log(" if you typed in ")
+		console.log("Wrong! The correct answer is the KNICKS")
 	}
 	if (inquirer.answerNine === questionNine.back) {
-		console.log('')
+		console.log('Yes! Michael Jordan is the greatest of all time with SIX titles!')
 	} else {
-		console.log(" if you typed in ")
+		console.log("Wrong! MJ has SIX NBA championships")
 	}
 	if (inquirer.answerTen === questionTen.back) {
-		console.log('')
+		console.log('Yes! Pat Riley was able to get the Big Three when Lebron took HIS TALENTS to South Beach')
 	} else {
-		console.log(" if you typed in ")
+		console.log("Wrong! He took 'HIS TALENTS' to South Beach in 2010")
 	}
 });
