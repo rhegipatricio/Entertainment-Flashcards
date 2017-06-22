@@ -36,6 +36,9 @@ Example Wrong Answer
 
 ![](/images_for_readme/04_wrong_answer_basic.png)
 
+
+
+_________________________________________________________________
 CLOZE
 
 For the Cloze, I mixed it up with some pop trivia.
