@@ -1,13 +1,13 @@
 //exports basic card function
 
-exports.BasicCard = function BasicCard (front, back) {
+exports.basiccard = function basiccard (front, back) {
 
 	this.front = front;
 	this.back = back
 
 };
 
-exports.ClozeCard = function ClozeCard (clozeGone, missingText, completeStatement) {
+exports.clozecard = function clozecard (clozeGone, missingText, completeStatement) {
 
 	this.clozeGone = clozeGone;
 	this.missingText = missingText;

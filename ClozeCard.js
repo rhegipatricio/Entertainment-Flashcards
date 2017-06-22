@@ -13,11 +13,11 @@ var questionTwo = new runapp.clozecard("three times", "Sheldon knocks ... when h
 inquirer.prompt([{
 	type: 'input',
 	name: 'answerOne',
-	message: 'questionOne.missingText'
+	message: questionOne.missingText
 }, {
 	type: 'input',
 	name: 'answerTwo',
-	message: 'questionTwo.missingText'
+	message: questionTwo.missingText
 }
 
 ]).then(function (inquirer) {
