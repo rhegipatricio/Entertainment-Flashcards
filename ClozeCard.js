@@ -23,12 +23,12 @@ inquirer.prompt([{
 ]).then(function (inquirer) {
 
 	if (inquirer.answerOne === questionOne.clozeGone) {
-		console.log("Correct! The complete sentence was " + "'" + questionOne.completeStatement + "'")
+		console.log("Correct! The complete sentence was " + "'" + questionOne.fullStatement + "'")
 	} else {
 		console.log("Wrong. The correct statement is " + questionOne.clozeGone)
 	}
 	if (inquirer.answerTwo === questionTwo.clozeGone) {
-		console.log("Correct! The complete sentence was " + "'" + questionTwo.completeStatement + "'")
+		console.log("Correct! The complete sentence was " + "'" + questionTwo.fullStatement + "'")
 	} else {
 		console.log("Wrong. The correct statement is " + questionTwo.clozeGone)
 	}
