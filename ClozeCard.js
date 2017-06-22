@@ -5,7 +5,7 @@ var runapp = require('./runapp.js');
 var inquirer = require("inquirer");
 
 //var questions
-var questionOne = new runapp.clozecard("blue french horn", "... is what Ted gave to Robin after their first date.", "blue french horn is what Ted gave to Robin after their first date.");
+var questionOne = new runapp.clozecard("knocks", "I am the one who ...!", "I am the one who knocks!");
 var questionTwo = new runapp.clozecard("three times", "Sheldon knocks ... when he goes to Penny's apartment", "Sheldon knocks three times when he goes to Penny's apartment");
 var questionThree = new runapp.clozecard("legendary", "Barney Stinson is famous for saying 'this is going to be ... '", "Barney Stinson is famous for saying 'this is going to be legendary'");
 var questionFour = new runapp.clozecard("The Rock", " ... is the stage and wrestling name for Dwayne Johnson when he wrestled in the WWE before he became a famous actor,", "The Rock is the stage and wrestling name for Dwayne Johnson when he wrestled for the WWE before he became a famous actor");
