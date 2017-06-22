@@ -65,3 +65,35 @@ Example Incorrect Answer:
 
 ![](/images_for_readme/09_Wrong_for_Cloze.png)
 
+
+
+
+
+
+
+
+
+
+SPOILER ALERT!!! (and for app example purposes)
+
+
+All Questions and Correct Responses for Basic flashcards
+
+![](/images_for_readme/10_basic_all_correct.png)
+
+
+All Questions and Wrong Responses for Basic flashcards
+
+![](/images_for_readme/11_basic_all_wrong.png)
+
+
+
+All Questions and Correct Responses for Cloze flashcards
+
+![](/images_for_readme/12_cloze_all_correct.png)
+
+
+All Questions and Wrong Responses for Cloze flashcards
+
+![](/images_for_readme/13_cloze_all_wrong.png)
+
