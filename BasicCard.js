@@ -1,15 +1,12 @@
 var inquirer = require("inquirer");
 
-var allQuestions = 0;
-var answerRight = 0;
-var answerWrong = 0;
+var BasicCard = function(front, back) {
+	this.front = front;
+	this.back = back;
+};
 
-function ShowCard() {}
+var questionOne = new BasicCard(
+		"Who is the Logo of the NBA?", "Jerry West");
 
-
-var questions = [
-	{
-		text: 'George Washington was the first president of the United States.',
-
-
-}]
+var questionTwo = new BasicCard(
+		"What team did Michael Jordan and the Chicago Bulls beat in Jordan's last ever NBA Finals?", "Utah Jazz");
