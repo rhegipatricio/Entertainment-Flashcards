@@ -24,6 +24,14 @@ inquirer.prompt([{
 	type: 'input',
 	name: 'answerThree',
 	message: questionThree.missingText
+}, {
+	type: 'input',
+	name: 'answerFour',
+	message: questionFour.missingText
+}, {
+	type: 'input',
+	name: 'answerFive',
+	message: questionFive.missingText
 }
 
 //function that tells the user if they're right or wrong
